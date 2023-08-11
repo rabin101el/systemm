@@ -32,3 +32,7 @@ function addBotMessage(message) {
   botDiv.textContent = message;
   chatBox.appendChild(botDiv);
 }
+
+
+
+
