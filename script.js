@@ -6,15 +6,17 @@ sendButton.addEventListener("click", sendMessage);
 
 function sendMessage() {
   const userMessage = userMessageInput.value.trim();
-  if (userMessage == "abc123") {
+  if (userMessage == "12GSOYFzZ") {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
-    addBotMessage("id: elite");
+    addBotMessage("id: prophet_muhammad_is_pedophile@mail.ru  \n \n pass:EliteIdss@1243"
+    
+    );
     userMessageInput.value = "";
     chatBox.scrollTop = chatBox.scrollHeight;
   }
   else{
-       addBotMessage("error");
+       addBotMessage("Incorrect");
  
   }
 }
