@@ -6,18 +6,18 @@ sendButton.addEventListener("click", sendMessage);
 
 function sendMessage() {
   const userMessage = userMessageInput.value.trim();
-  if (userMessage == "GDVraJsz1") {
+  if (userMessage == "AjdnnZ1") {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
-    addBotMessage("id: prophet_muhammad_is_pedophile@mail.ru  \n \n pass: E1(https://discord.gg/sTbYu7Mty2"
-    
-    );
+    addBotMessage("prophet_muhammad_is_pedophile@mail.ru");
+            addBotMessage("E1(https://discord.gg/sTbYu7Mty2");
+
     userMessageInput.value = "";
     chatBox.scrollTop = chatBox.scrollHeight;
   }
   else{
-       addBotMessage("Incorrect");
- 
+        addBotMessage("Incorrect code");
+
   }
 }
 
@@ -32,9 +32,23 @@ function addBotMessage(message) {
   const botDiv = document.createElement("div");
   botDiv.className = "bot-message";
   botDiv.textContent = message;
+
+  const copyButton = document.createElement("button");
+  copyButton.className = "copy-button";
+  copyButton.textContent = "Copy";
+  copyButton.addEventListener("click", () => {
+    copyToClipboard(message);
+  });
+
+  botDiv.appendChild(copyButton);
   chatBox.appendChild(botDiv);
 }
 
-
-
-
+function copyToClipboard(text) {
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  document.body.removeChild(textarea);
+}
