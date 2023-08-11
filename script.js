@@ -6,7 +6,7 @@ sendButton.addEventListener("click", sendMessage);
 
 function sendMessage() {
   const userMessage = userMessageInput.value.trim();
-  if (userMessage == "12GSOYFzZ") {
+  if (userMessage == "ZZzOeg5") {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
     addBotMessage("id: prophet_muhammad_is_pedophile@mail.ru  \n \n pass:EliteIdss@1243"
