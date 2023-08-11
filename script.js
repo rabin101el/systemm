@@ -9,7 +9,7 @@ function sendMessage() {
   if (userMessage == "GDVraJsz1") {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
-    addBotMessage("id: prophet_muhammad_is_pedophile@mail.ru  \n \n pass: E1(https://discord.gg/sTbYu7Mty2)"
+    addBotMessage("id: prophet_muhammad_is_pedophile@mail.ru  \n \n pass: E1(https://discord.gg/sTbYu7Mty2"
     
     );
     userMessageInput.value = "";
