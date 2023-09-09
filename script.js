@@ -10,7 +10,7 @@ function sendMessage() {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
     addBotMessage("prophet_muhammad_is_pedophile@mail.ru");
-         addBotMessage("E5(https://discord.gg/sTbYu7Mty2");
+         addBotMessage("E10(https://discord.gg/sTbYu7Mty2");
 
     userMessageInput.value = "";
     chatBox.scrollTop = chatBox.scrollHeight;
