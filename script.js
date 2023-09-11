@@ -9,8 +9,8 @@ function sendMessage() {
   if (userMessage == "LeTaG1J") {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
-    addBotMessage("prophet_muhammad_is_pedophile@mail.ru");
-         addBotMessage("E13(https://discord.gg/sTbYu7Mty2");
+    addBotMessage("Id is on maintaining");
+         addBotMessage("");
 
     userMessageInput.value = "";
     chatBox.scrollTop = chatBox.scrollHeight;
