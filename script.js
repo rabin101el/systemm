@@ -6,11 +6,11 @@ sendButton.addEventListener("click", sendMessage);
 
 function sendMessage() {
   const userMessage = userMessageInput.value.trim();
-  if (userMessage == "YKO9zF") {
+  if (userMessage == "4KwZ71Y") {
     addUserMessage(userMessage);
     // Replace the bot's response with an actual response from your chatbot service or logic
     addBotMessage("prophet_muhammad_is_pedophile@mail.ru");
-         addBotMessage("E15(https://discord.gg/sTbYu7Mty2");
+         addBotMessage("E16(https://discord.gg/sTbYu7Mty2");
 
     userMessageInput.value = "";
     chatBox.scrollTop = chatBox.scrollHeight;
